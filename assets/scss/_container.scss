@@ -1,0 +1,12 @@
+@use "variables/sizes" as *;
+
+.container {
+  margin: 0 auto;
+  max-width: $content-width - $spacing * 2;
+  padding: 0 $spacing;
+
+  @media screen and (max-width: $large-width) {
+    max-width: $content-width - $spacing;
+    padding: 0 $spacing;
+  }
+}
