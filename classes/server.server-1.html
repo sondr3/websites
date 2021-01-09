@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>web | web</title>
+	<title>Server | web</title>
 	<meta name="description" content="Documentation for web">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style type="text/css">/*! normalize.css v1.1.3 | MIT License | git.io/normalize */
@@ -2646,7 +2646,7 @@ img {
 		<div class="container">
 			<div class="table-wrap">
 				<div class="table-cell">
-					<strong><a href="index.html">web</a></strong>
+					<strong><a href="../index.html">web</a></strong>
 				</div>
 				<div class="table-cell" id="tsd-widgets">
 					<div id="tsd-filter">
@@ -2676,60 +2676,333 @@ img {
 </header>
 <nav class="tsd-navigation secondary">
 	<ul>
+		<li class="current tsd-kind-class tsd-parent-kind-module">
+			<a href="server.server-1.html" class="tsd-kind-icon">Server</a>
+			<ul>
+				<li class=" tsd-kind-constructor tsd-parent-kind-class">
+					<a href="server.server-1.html#constructor" class="tsd-kind-icon">constructor</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a href="server.server-1.html#server" class="tsd-kind-icon">server</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a href="server.server-1.html#wss" class="tsd-kind-icon">wss</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a href="server.server-1.html#broadcastreload" class="tsd-kind-icon">broadcast<wbr>Reload</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="server.server-1.html#broadcastshutdown" class="tsd-kind-icon">broadcast<wbr>Shutdown</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a href="server.server-1.html#buildserver" class="tsd-kind-icon">build<wbr>Server</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="server.server-1.html#close" class="tsd-kind-icon">close</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="server.server-1.html#run" class="tsd-kind-icon">run</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="server.server-1.html#serve" class="tsd-kind-icon">serve</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a href="server.server-1.html#watch" class="tsd-kind-icon">watch</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-static">
+					<a href="server.server-1.html#findmimetype" class="tsd-kind-icon">find<wbr>Mimetype</a>
+				</li>
+			</ul>
+		</li>
 	</ul>
 </nav>
 <div class="container container-main">
 	<div class="content-wrap">
-		<div class="tsd-panel tsd-typography">
-			<a href="#eonsio-" id="eonsio-" style="color: inherit; text-decoration: none;">
-				<h1><a href="https://www.eons.io/"><code>eons.io</code></a> <a href="https://codecov.io/gh/sondr3/web"><img src="https://codecov.io/gh/sondr3/web/branch/master/graph/badge.svg" alt="codecov"></a></h1>
-			</a>
-			<p>This is my website, held together by tears, glue and a healthy dose of <code>eh, good enough</code>. It&#39;s essentially a super personal static site generator with no magic.</p>
-			<a href="#license" id="license" style="color: inherit; text-decoration: none;">
-				<h1>License</h1>
-			</a>
-			<p>The code in this repository is under the <a href="https://github.com/sondr3/web/blob/master/LICENSE">MIT</a>
-				license while the content is licensed under a Creative Commons Attribution-ShareAlike 4.0
-			International License. (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY SA 4.0</a>).</p>
-		</div>
-		<div style="position:relative;"><a name="typedoc-main-index" class="tsd-anchor"></a></div>
+		<section class="tsd-panel tsd-comment">
+			<div class="tsd-comment tsd-typography">
+				<div class="lead">
+					<p>A very simple HTTP server wrapping the builtin Node <a href="https://nodejs.org/dist/latest/docs/api/http.html" class="external">HTTP server</a>
+					with a file watcher to automatically reload the website using websockets during development.</p>
+				</div>
+			</div>
+		</section>
+		<section class="tsd-panel tsd-hierarchy">
+			<h3>Hierarchy</h3>
+			<ul class="tsd-hierarchy">
+				<li>
+					<span class="target">Server</span>
+				</li>
+			</ul>
+		</section>
 		<section class="tsd-panel-group tsd-index-group">
 			<h2>Index</h2>
 			<section class="tsd-panel tsd-index-panel">
 				<div class="tsd-index-content">
 					<section class="tsd-index-section ">
-						<h3>Modules</h3>
+						<h3>Constructors</h3>
 						<ul class="tsd-index-list">
-							<li class="tsd-kind-module"><a href="modules/assets.html" class="tsd-kind-icon">assets</a></li>
-							<li class="tsd-kind-module"><a href="modules/assets_helpers.html" class="tsd-kind-icon">assets/helpers</a></li>
-							<li class="tsd-kind-module"><a href="modules/assets_styles.html" class="tsd-kind-icon">assets/styles</a></li>
-							<li class="tsd-kind-module"><a href="modules/build.html" class="tsd-kind-icon">build</a></li>
-							<li class="tsd-kind-module"><a href="modules/build_asciidoc.html" class="tsd-kind-icon">build/<wbr>Asciidoc</a></li>
-							<li class="tsd-kind-module"><a href="modules/build_build.html" class="tsd-kind-icon">build/build</a></li>
-							<li class="tsd-kind-module"><a href="modules/build_compress.html" class="tsd-kind-icon">build/compress</a></li>
-							<li class="tsd-kind-module"><a href="modules/build_templating.html" class="tsd-kind-icon">build/templating</a></li>
-							<li class="tsd-kind-module"><a href="modules/config.html" class="tsd-kind-icon">config</a></li>
-							<li class="tsd-kind-module"><a href="modules/content.html" class="tsd-kind-icon">content</a></li>
-							<li class="tsd-kind-module"><a href="modules/content_helpers.html" class="tsd-kind-icon">content/helpers</a></li>
-							<li class="tsd-kind-module"><a href="modules/content_pages.html" class="tsd-kind-icon">content/pages</a></li>
-							<li class="tsd-kind-module"><a href="modules/content_sitemap.html" class="tsd-kind-icon">content/sitemap</a></li>
-							<li class="tsd-kind-module"><a href="modules/index.html" class="tsd-kind-icon">index</a></li>
-							<li class="tsd-kind-module"><a href="modules/logging.html" class="tsd-kind-icon">logging</a></li>
-							<li class="tsd-kind-module"><a href="modules/logging_logmanager.html" class="tsd-kind-icon">logging/<wbr>Log<wbr>Manager</a></li>
-							<li class="tsd-kind-module"><a href="modules/logging_logger.html" class="tsd-kind-icon">logging/<wbr>Logger</a></li>
-							<li class="tsd-kind-module"><a href="modules/server.html" class="tsd-kind-icon">server</a></li>
-							<li class="tsd-kind-module"><a href="modules/state.html" class="tsd-kind-icon">state</a></li>
-							<li class="tsd-kind-module"><a href="modules/types.html" class="tsd-kind-icon">types</a></li>
-							<li class="tsd-kind-module"><a href="modules/utils.html" class="tsd-kind-icon">utils</a></li>
-							<li class="tsd-kind-module"><a href="modules/utils_cli.html" class="tsd-kind-icon">utils/CLI</a></li>
-							<li class="tsd-kind-module"><a href="modules/utils_colors.html" class="tsd-kind-icon">utils/<wbr>Colors</a></li>
-							<li class="tsd-kind-module"><a href="modules/utils_duration.html" class="tsd-kind-icon">utils/<wbr>Duration</a></li>
-							<li class="tsd-kind-module"><a href="modules/utils_formatting.html" class="tsd-kind-icon">utils/formatting</a></li>
-							<li class="tsd-kind-module"><a href="modules/utils_fs.html" class="tsd-kind-icon">utils/fs</a></li>
-							<li class="tsd-kind-module"><a href="modules/utils_utils.html" class="tsd-kind-icon">utils/utils</a></li>
+							<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="server.server-1.html#constructor" class="tsd-kind-icon">constructor</a></li>
+						</ul>
+					</section>
+					<section class="tsd-index-section tsd-is-private tsd-is-private-protected">
+						<h3>Properties</h3>
+						<ul class="tsd-index-list">
+							<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="server.server-1.html#server" class="tsd-kind-icon">server</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="server.server-1.html#wss" class="tsd-kind-icon">wss</a></li>
+						</ul>
+					</section>
+					<section class="tsd-index-section ">
+						<h3>Methods</h3>
+						<ul class="tsd-index-list">
+							<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="server.server-1.html#broadcastreload" class="tsd-kind-icon">broadcast<wbr>Reload</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="server.server-1.html#broadcastshutdown" class="tsd-kind-icon">broadcast<wbr>Shutdown</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="server.server-1.html#buildserver" class="tsd-kind-icon">build<wbr>Server</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="server.server-1.html#close" class="tsd-kind-icon">close</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="server.server-1.html#run" class="tsd-kind-icon">run</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="server.server-1.html#serve" class="tsd-kind-icon">serve</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="server.server-1.html#watch" class="tsd-kind-icon">watch</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-static"><a href="server.server-1.html#findmimetype" class="tsd-kind-icon">find<wbr>Mimetype</a></li>
 						</ul>
 					</section>
 				</div>
+			</section>
+		</section>
+		<section class="tsd-panel-group tsd-member-group ">
+			<h2>Constructors</h2>
+			<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+				<a name="constructor" class="tsd-anchor"></a>
+				<h3>constructor</h3>
+				<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">new <wbr>Server<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="server.server-1.html" class="tsd-signature-type" data-tsd-kind="Class">Server</a></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/576998f/lib/server.ts#L20">lib/server.ts:20</a></li>
+							</ul>
+						</aside>
+						<h4 class="tsd-returns-title">Returns <a href="server.server-1.html" class="tsd-signature-type" data-tsd-kind="Class">Server</a></h4>
+					</li>
+				</ul>
+			</section>
+		</section>
+		<section class="tsd-panel-group tsd-member-group tsd-is-private tsd-is-private-protected">
+			<h2>Properties</h2>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+				<a name="server" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> server</h3>
+				<div class="tsd-signature tsd-kind-icon">server<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Server</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/sondr3/web/blob/576998f/lib/server.ts#L20">lib/server.ts:20</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+				<a name="wss" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> wss</h3>
+				<div class="tsd-signature tsd-kind-icon">wss<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Server</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/sondr3/web/blob/576998f/lib/server.ts#L19">lib/server.ts:19</a></li>
+					</ul>
+				</aside>
+			</section>
+		</section>
+		<section class="tsd-panel-group tsd-member-group ">
+			<h2>Methods</h2>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+				<a name="broadcastreload" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> broadcast<wbr>Reload</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<li class="tsd-signature tsd-kind-icon">broadcast<wbr>Reload<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/576998f/lib/server.ts#L95">lib/server.ts:95</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Used when content changes, tells connected websocket clients to reload the webpage.</p>
+							</div>
+						</div>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="broadcastshutdown" class="tsd-anchor"></a>
+				<h3>broadcast<wbr>Shutdown</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">broadcast<wbr>Shutdown<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/576998f/lib/server.ts#L56">lib/server.ts:56</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>When Ctrl-C is invoked on the command line, broadcast to clients that server is shutting down.</p>
+							</div>
+						</div>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+				<a name="buildserver" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> build<wbr>Server</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<li class="tsd-signature tsd-kind-icon">build<wbr>Server<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Server</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/576998f/lib/server.ts#L102">lib/server.ts:102</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Configures the Node HTTP server.</p>
+							</div>
+						</div>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Server</span></h4>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="close" class="tsd-anchor"></a>
+				<h3>close</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">close<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/576998f/lib/server.ts#L48">lib/server.ts:48</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Closes the websocket and HTTP server.</p>
+							</div>
+						</div>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="run" class="tsd-anchor"></a>
+				<h3>run</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">run<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/576998f/lib/server.ts#L32">lib/server.ts:32</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Runs the server with both the file watcher and the HTTP server.</p>
+							</div>
+						</div>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="serve" class="tsd-anchor"></a>
+				<h3>serve</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">serve<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/576998f/lib/server.ts#L40">lib/server.ts:40</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Serves the configured output directory on port 3000.</p>
+							</div>
+						</div>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+				<a name="watch" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> watch</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<li class="tsd-signature tsd-kind-icon">watch<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/576998f/lib/server.ts#L63">lib/server.ts:63</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Watch content and assets directories and rebuild required content if needed.</p>
+							</div>
+						</div>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-static">
+				<a name="findmimetype" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagStatic">Static</span> find<wbr>Mimetype</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-static">
+					<li class="tsd-signature tsd-kind-icon">find<wbr>Mimetype<span class="tsd-signature-symbol">(</span>mimetypes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span>, extension<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/576998f/lib/server.ts#L162">lib/server.ts:162</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Try to find a mimetype for a file extension to use in HTTP server.</p>
+							</div>
+						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>mimetypes: <span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h5>
+								<div class="tsd-comment tsd-typography">
+									<p>Object with known mimetypes</p>
+								</div>
+							</li>
+							<li>
+								<h5>extension: <span class="tsd-signature-type">string</span></h5>
+								<div class="tsd-comment tsd-typography">
+									<p>File extension to look up</p>
+								</div>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h4>
+						<p>If extensions is not found, undefined</p>
+					</li>
+				</ul>
 			</section>
 		</section>
 		<footer class="with-border-bottom">
@@ -2743,10 +3016,16 @@ img {
 						<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
 					</ul>
 					<ul class="tsd-legend">
-						<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+						<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+						<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+						<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
 					</ul>
 					<ul class="tsd-legend">
-						<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+						<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+						<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+					</ul>
+					<ul class="tsd-legend">
+						<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
 					</ul>
 				</div>
 			</div>

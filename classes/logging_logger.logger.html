@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>web | web</title>
+	<title>Logger | web</title>
 	<meta name="description" content="Documentation for web">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style type="text/css">/*! normalize.css v1.1.3 | MIT License | git.io/normalize */
@@ -2646,7 +2646,7 @@ img {
 		<div class="container">
 			<div class="table-wrap">
 				<div class="table-cell">
-					<strong><a href="index.html">web</a></strong>
+					<strong><a href="../index.html">web</a></strong>
 				</div>
 				<div class="table-cell" id="tsd-widgets">
 					<div id="tsd-filter">
@@ -2676,60 +2676,356 @@ img {
 </header>
 <nav class="tsd-navigation secondary">
 	<ul>
+		<li class="current tsd-kind-class tsd-parent-kind-module">
+			<a href="logging_logger.logger.html" class="tsd-kind-icon">Logger</a>
+			<ul>
+				<li class=" tsd-kind-constructor tsd-parent-kind-class">
+					<a href="logging_logger.logger.html#constructor" class="tsd-kind-icon">constructor</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a href="logging_logger.logger.html#levels" class="tsd-kind-icon">levels</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a href="logging_logger.logger.html#logmanager" class="tsd-kind-icon">log<wbr>Manager</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a href="logging_logger.logger.html#module" class="tsd-kind-icon">module</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="logging_logger.logger.html#debug" class="tsd-kind-icon">debug</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a href="logging_logger.logger.html#emit" class="tsd-kind-icon">emit</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="logging_logger.logger.html#error" class="tsd-kind-icon">error</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a href="logging_logger.logger.html#leveltoint" class="tsd-kind-icon">level<wbr>ToInt</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="logging_logger.logger.html#log" class="tsd-kind-icon">log</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="logging_logger.logger.html#trace" class="tsd-kind-icon">trace</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="logging_logger.logger.html#warn" class="tsd-kind-icon">warn</a>
+				</li>
+			</ul>
+		</li>
+		<li class=" tsd-kind-interface tsd-parent-kind-module">
+			<a href="../interfaces/logging_logger.logentry.html" class="tsd-kind-icon">Log<wbr>Entry</a>
+		</li>
 	</ul>
 </nav>
 <div class="container container-main">
 	<div class="content-wrap">
-		<div class="tsd-panel tsd-typography">
-			<a href="#eonsio-" id="eonsio-" style="color: inherit; text-decoration: none;">
-				<h1><a href="https://www.eons.io/"><code>eons.io</code></a> <a href="https://codecov.io/gh/sondr3/web"><img src="https://codecov.io/gh/sondr3/web/branch/master/graph/badge.svg" alt="codecov"></a></h1>
-			</a>
-			<p>This is my website, held together by tears, glue and a healthy dose of <code>eh, good enough</code>. It&#39;s essentially a super personal static site generator with no magic.</p>
-			<a href="#license" id="license" style="color: inherit; text-decoration: none;">
-				<h1>License</h1>
-			</a>
-			<p>The code in this repository is under the <a href="https://github.com/sondr3/web/blob/master/LICENSE">MIT</a>
-				license while the content is licensed under a Creative Commons Attribution-ShareAlike 4.0
-			International License. (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY SA 4.0</a>).</p>
-		</div>
-		<div style="position:relative;"><a name="typedoc-main-index" class="tsd-anchor"></a></div>
+		<section class="tsd-panel tsd-comment">
+			<div class="tsd-comment tsd-typography">
+				<div class="lead">
+					<p>Simple class to log events across various different log levels, e.g. only output
+					<code>trace</code> events if the application has set the minimum log level threshold to it or above.</p>
+				</div>
+			</div>
+		</section>
+		<section class="tsd-panel tsd-hierarchy">
+			<h3>Hierarchy</h3>
+			<ul class="tsd-hierarchy">
+				<li>
+					<span class="target">Logger</span>
+				</li>
+			</ul>
+		</section>
 		<section class="tsd-panel-group tsd-index-group">
 			<h2>Index</h2>
 			<section class="tsd-panel tsd-index-panel">
 				<div class="tsd-index-content">
 					<section class="tsd-index-section ">
-						<h3>Modules</h3>
+						<h3>Constructors</h3>
 						<ul class="tsd-index-list">
-							<li class="tsd-kind-module"><a href="modules/assets.html" class="tsd-kind-icon">assets</a></li>
-							<li class="tsd-kind-module"><a href="modules/assets_helpers.html" class="tsd-kind-icon">assets/helpers</a></li>
-							<li class="tsd-kind-module"><a href="modules/assets_styles.html" class="tsd-kind-icon">assets/styles</a></li>
-							<li class="tsd-kind-module"><a href="modules/build.html" class="tsd-kind-icon">build</a></li>
-							<li class="tsd-kind-module"><a href="modules/build_asciidoc.html" class="tsd-kind-icon">build/<wbr>Asciidoc</a></li>
-							<li class="tsd-kind-module"><a href="modules/build_build.html" class="tsd-kind-icon">build/build</a></li>
-							<li class="tsd-kind-module"><a href="modules/build_compress.html" class="tsd-kind-icon">build/compress</a></li>
-							<li class="tsd-kind-module"><a href="modules/build_templating.html" class="tsd-kind-icon">build/templating</a></li>
-							<li class="tsd-kind-module"><a href="modules/config.html" class="tsd-kind-icon">config</a></li>
-							<li class="tsd-kind-module"><a href="modules/content.html" class="tsd-kind-icon">content</a></li>
-							<li class="tsd-kind-module"><a href="modules/content_helpers.html" class="tsd-kind-icon">content/helpers</a></li>
-							<li class="tsd-kind-module"><a href="modules/content_pages.html" class="tsd-kind-icon">content/pages</a></li>
-							<li class="tsd-kind-module"><a href="modules/content_sitemap.html" class="tsd-kind-icon">content/sitemap</a></li>
-							<li class="tsd-kind-module"><a href="modules/index.html" class="tsd-kind-icon">index</a></li>
-							<li class="tsd-kind-module"><a href="modules/logging.html" class="tsd-kind-icon">logging</a></li>
-							<li class="tsd-kind-module"><a href="modules/logging_logmanager.html" class="tsd-kind-icon">logging/<wbr>Log<wbr>Manager</a></li>
-							<li class="tsd-kind-module"><a href="modules/logging_logger.html" class="tsd-kind-icon">logging/<wbr>Logger</a></li>
-							<li class="tsd-kind-module"><a href="modules/server.html" class="tsd-kind-icon">server</a></li>
-							<li class="tsd-kind-module"><a href="modules/state.html" class="tsd-kind-icon">state</a></li>
-							<li class="tsd-kind-module"><a href="modules/types.html" class="tsd-kind-icon">types</a></li>
-							<li class="tsd-kind-module"><a href="modules/utils.html" class="tsd-kind-icon">utils</a></li>
-							<li class="tsd-kind-module"><a href="modules/utils_cli.html" class="tsd-kind-icon">utils/CLI</a></li>
-							<li class="tsd-kind-module"><a href="modules/utils_colors.html" class="tsd-kind-icon">utils/<wbr>Colors</a></li>
-							<li class="tsd-kind-module"><a href="modules/utils_duration.html" class="tsd-kind-icon">utils/<wbr>Duration</a></li>
-							<li class="tsd-kind-module"><a href="modules/utils_formatting.html" class="tsd-kind-icon">utils/formatting</a></li>
-							<li class="tsd-kind-module"><a href="modules/utils_fs.html" class="tsd-kind-icon">utils/fs</a></li>
-							<li class="tsd-kind-module"><a href="modules/utils_utils.html" class="tsd-kind-icon">utils/utils</a></li>
+							<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="logging_logger.logger.html#constructor" class="tsd-kind-icon">constructor</a></li>
+						</ul>
+					</section>
+					<section class="tsd-index-section tsd-is-private tsd-is-private-protected">
+						<h3>Properties</h3>
+						<ul class="tsd-index-list">
+							<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="logging_logger.logger.html#levels" class="tsd-kind-icon">levels</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="logging_logger.logger.html#logmanager" class="tsd-kind-icon">log<wbr>Manager</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="logging_logger.logger.html#module" class="tsd-kind-icon">module</a></li>
+						</ul>
+					</section>
+					<section class="tsd-index-section ">
+						<h3>Methods</h3>
+						<ul class="tsd-index-list">
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="logging_logger.logger.html#debug" class="tsd-kind-icon">debug</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="logging_logger.logger.html#emit" class="tsd-kind-icon">emit</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="logging_logger.logger.html#error" class="tsd-kind-icon">error</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="logging_logger.logger.html#leveltoint" class="tsd-kind-icon">level<wbr>ToInt</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="logging_logger.logger.html#log" class="tsd-kind-icon">log</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="logging_logger.logger.html#trace" class="tsd-kind-icon">trace</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="logging_logger.logger.html#warn" class="tsd-kind-icon">warn</a></li>
 						</ul>
 					</section>
 				</div>
+			</section>
+		</section>
+		<section class="tsd-panel-group tsd-member-group ">
+			<h2>Constructors</h2>
+			<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+				<a name="constructor" class="tsd-anchor"></a>
+				<h3>constructor</h3>
+				<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">new <wbr>Logger<span class="tsd-signature-symbol">(</span>logManager<span class="tsd-signature-symbol">: </span><a href="logging_logmanager.logmanager.html" class="tsd-signature-type" data-tsd-kind="Class">LogManager</a>, module<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="logging_logger.logger.html" class="tsd-signature-type" data-tsd-kind="Class">Logger</a></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/576998f/lib/logging/Logger.ts#L28">lib/logging/Logger.ts:28</a></li>
+							</ul>
+						</aside>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>logManager: <a href="logging_logmanager.logmanager.html" class="tsd-signature-type" data-tsd-kind="Class">LogManager</a></h5>
+							</li>
+							<li>
+								<h5><span class="tsd-flag ts-flagOptional">Optional</span> module: <span class="tsd-signature-type">string</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <a href="logging_logger.logger.html" class="tsd-signature-type" data-tsd-kind="Class">Logger</a></h4>
+					</li>
+				</ul>
+			</section>
+		</section>
+		<section class="tsd-panel-group tsd-member-group tsd-is-private tsd-is-private-protected">
+			<h2>Properties</h2>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+				<a name="levels" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> levels</h3>
+				<div class="tsd-signature tsd-kind-icon">levels<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{}</span><span class="tsd-signature-symbol"> = ...</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/sondr3/web/blob/576998f/lib/logging/Logger.ts#L21">lib/logging/Logger.ts:21</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-type-declaration">
+					<h4>Type declaration</h4>
+					<ul class="tsd-parameters">
+						<li class="tsd-parameter-index-signature">
+							<h5><span class="tsd-signature-symbol">[</span>key: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><span class="tsd-signature-type">number</span></h5>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+				<a name="logmanager" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> log<wbr>Manager</h3>
+				<div class="tsd-signature tsd-kind-icon">log<wbr>Manager<span class="tsd-signature-symbol">:</span> <a href="logging_logmanager.logmanager.html" class="tsd-signature-type" data-tsd-kind="Class">LogManager</a></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/sondr3/web/blob/576998f/lib/logging/Logger.ts#L19">lib/logging/Logger.ts:19</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+				<a name="module" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagOptional">Optional</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> module</h3>
+				<div class="tsd-signature tsd-kind-icon">module<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/sondr3/web/blob/576998f/lib/logging/Logger.ts#L20">lib/logging/Logger.ts:20</a></li>
+					</ul>
+				</aside>
+			</section>
+		</section>
+		<section class="tsd-panel-group tsd-member-group ">
+			<h2>Methods</h2>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="debug" class="tsd-anchor"></a>
+				<h3>debug</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">debug<span class="tsd-signature-symbol">(</span>message<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/576998f/lib/logging/Logger.ts#L68">lib/logging/Logger.ts:68</a></li>
+							</ul>
+						</aside>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>message: <span class="tsd-signature-type">string</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+				<a name="emit" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> emit</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<li class="tsd-signature tsd-kind-icon">emit<span class="tsd-signature-symbol">(</span>logLevel<span class="tsd-signature-symbol">: </span><a href="../modules/logging_logmanager.html#loglevel" class="tsd-signature-type" data-tsd-kind="Type alias">LogLevel</a>, message<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/576998f/lib/logging/Logger.ts#L52">lib/logging/Logger.ts:52</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Output a entry to the log manager if the log level allowes.</p>
+							</div>
+						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>logLevel: <a href="../modules/logging_logmanager.html#loglevel" class="tsd-signature-type" data-tsd-kind="Type alias">LogLevel</a></h5>
+								<div class="tsd-comment tsd-typography">
+									<p>Which log level the message is</p>
+								</div>
+							</li>
+							<li>
+								<h5>message: <span class="tsd-signature-type">string</span></h5>
+								<div class="tsd-comment tsd-typography">
+									<p>Log message</p>
+								</div>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="error" class="tsd-anchor"></a>
+				<h3>error</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">error<span class="tsd-signature-symbol">(</span>message<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/576998f/lib/logging/Logger.ts#L72">lib/logging/Logger.ts:72</a></li>
+							</ul>
+						</aside>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>message: <span class="tsd-signature-type">string</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+				<a name="leveltoint" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> level<wbr>ToInt</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<li class="tsd-signature tsd-kind-icon">level<wbr>ToInt<span class="tsd-signature-symbol">(</span>level<span class="tsd-signature-symbol">: </span><a href="../modules/logging_logmanager.html#loglevel" class="tsd-signature-type" data-tsd-kind="Type alias">LogLevel</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/576998f/lib/logging/Logger.ts#L42">lib/logging/Logger.ts:42</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Converts a log level to an integer so we can compare allowed log level and
+								the entry&#39;s level.</p>
+							</div>
+						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>level: <a href="../modules/logging_logmanager.html#loglevel" class="tsd-signature-type" data-tsd-kind="Type alias">LogLevel</a></h5>
+								<div class="tsd-comment tsd-typography">
+									<p>Log level for entry</p>
+								</div>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						<p>The converted log levels number</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="log" class="tsd-anchor"></a>
+				<h3>log</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">log<span class="tsd-signature-symbol">(</span>message<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/576998f/lib/logging/Logger.ts#L64">lib/logging/Logger.ts:64</a></li>
+							</ul>
+						</aside>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>message: <span class="tsd-signature-type">string</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="trace" class="tsd-anchor"></a>
+				<h3>trace</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">trace<span class="tsd-signature-symbol">(</span>message<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/576998f/lib/logging/Logger.ts#L80">lib/logging/Logger.ts:80</a></li>
+							</ul>
+						</aside>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>message: <span class="tsd-signature-type">string</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="warn" class="tsd-anchor"></a>
+				<h3>warn</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">warn<span class="tsd-signature-symbol">(</span>message<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/576998f/lib/logging/Logger.ts#L76">lib/logging/Logger.ts:76</a></li>
+							</ul>
+						</aside>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>message: <span class="tsd-signature-type">string</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+					</li>
+				</ul>
 			</section>
 		</section>
 		<footer class="with-border-bottom">
@@ -2743,10 +3039,16 @@ img {
 						<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
 					</ul>
 					<ul class="tsd-legend">
-						<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+						<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+						<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+						<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
 					</ul>
 					<ul class="tsd-legend">
-						<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+						<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+						<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+					</ul>
+					<ul class="tsd-legend">
+						<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
 					</ul>
 				</div>
 			</div>
