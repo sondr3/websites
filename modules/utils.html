@@ -2691,6 +2691,9 @@ img {
 		<li class=" tsd-kind-type-alias tsd-parent-kind-module tsd-has-type-parameter">
 			<a href="utils.html#deeppartial" class="tsd-kind-icon">Deep<wbr>Partial</a>
 		</li>
+		<li class=" tsd-kind-type-alias tsd-parent-kind-module tsd-has-type-parameter">
+			<a href="utils.html#partialstringytyped" class="tsd-kind-icon">Partial<wbr>Stringy<wbr>Typed</a>
+		</li>
 		<li class=" tsd-kind-function tsd-parent-kind-module">
 			<a href="utils.html#copyfile" class="tsd-kind-icon">copy<wbr>File</a>
 		</li>
@@ -2757,6 +2760,7 @@ img {
 						<h3>Type aliases</h3>
 						<ul class="tsd-index-list">
 							<li class="tsd-kind-type-alias tsd-parent-kind-module tsd-has-type-parameter"><a href="utils.html#deeppartial" class="tsd-kind-icon">Deep<wbr>Partial</a></li>
+							<li class="tsd-kind-type-alias tsd-parent-kind-module tsd-has-type-parameter"><a href="utils.html#partialstringytyped" class="tsd-kind-icon">Partial<wbr>Stringy<wbr>Typed</a></li>
 						</ul>
 					</section>
 					<section class="tsd-index-section ">
@@ -2790,9 +2794,35 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Deep<wbr>Partial&lt;T&gt;<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{</span><span class="tsd-signature-symbol">[ </span><span class="tsd-signature-type">P</span><span class="tsd-signature-symbol"> in </span><span class="tsd-signature-symbol">keyof </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">: </span><a href="utils_types.html#deeppartial" class="tsd-signature-type" data-tsd-kind="Type alias">DeepPartial</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">P</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> }</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/sondr3/web/blob/f42ebb3/lib/utils/types.ts#L1">lib/utils/types.ts:1</a></li>
+						<li>Defined in <a href="https://github.com/sondr3/web/blob/43ca53a/lib/utils/types.ts#L4">lib/utils/types.ts:4</a></li>
 					</ul>
 				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Like {@link Partial} but works on nested objects too.</p>
+					</div>
+				</div>
+				<h4 class="tsd-type-parameters-title">Type parameters</h4>
+				<ul class="tsd-type-parameters">
+					<li>
+						<h4>T</h4>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-parent-kind-module tsd-has-type-parameter">
+				<a name="partialstringytyped" class="tsd-anchor"></a>
+				<h3>Partial<wbr>Stringy<wbr>Typed</h3>
+				<div class="tsd-signature tsd-kind-icon">Partial<wbr>Stringy<wbr>Typed&lt;T&gt;<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{</span><span class="tsd-signature-symbol">[ </span><span class="tsd-signature-type">Key</span><span class="tsd-signature-symbol"> in </span><span class="tsd-signature-symbol">keyof </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> }</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/sondr3/web/blob/43ca53a/lib/utils/types.ts#L11">lib/utils/types.ts:11</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Utility type for when reading something only returns the values as strings.</p>
+					</div>
+				</div>
 				<h4 class="tsd-type-parameters-title">Type parameters</h4>
 				<ul class="tsd-type-parameters">
 					<li>
@@ -2813,7 +2843,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sondr3/web/blob/f42ebb3/lib/utils/fs.ts#L117">lib/utils/fs.ts:117</a></li>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/43ca53a/lib/utils/fs.ts#L117">lib/utils/fs.ts:117</a></li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -2857,7 +2887,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sondr3/web/blob/f42ebb3/lib/utils/fs.ts#L88">lib/utils/fs.ts:88</a></li>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/43ca53a/lib/utils/fs.ts#L88">lib/utils/fs.ts:88</a></li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -2902,7 +2932,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sondr3/web/blob/f42ebb3/lib/utils/fs.ts#L134">lib/utils/fs.ts:134</a></li>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/43ca53a/lib/utils/fs.ts#L134">lib/utils/fs.ts:134</a></li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -2935,7 +2965,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sondr3/web/blob/f42ebb3/lib/utils/fs.ts#L183">lib/utils/fs.ts:183</a></li>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/43ca53a/lib/utils/fs.ts#L183">lib/utils/fs.ts:183</a></li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -2968,7 +2998,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sondr3/web/blob/f42ebb3/lib/utils/formatting.ts#L18">lib/utils/formatting.ts:18</a></li>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/43ca53a/lib/utils/formatting.ts#L18">lib/utils/formatting.ts:18</a></li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -3008,7 +3038,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sondr3/web/blob/f42ebb3/lib/utils/formatting.ts#L10">lib/utils/formatting.ts:10</a></li>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/43ca53a/lib/utils/formatting.ts#L10">lib/utils/formatting.ts:10</a></li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -3040,7 +3070,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sondr3/web/blob/f42ebb3/lib/utils/duration.ts#L36">lib/utils/duration.ts:36</a></li>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/43ca53a/lib/utils/duration.ts#L36">lib/utils/duration.ts:36</a></li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -3072,7 +3102,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sondr3/web/blob/f42ebb3/lib/utils/fs.ts#L167">lib/utils/fs.ts:167</a></li>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/43ca53a/lib/utils/fs.ts#L167">lib/utils/fs.ts:167</a></li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -3104,7 +3134,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sondr3/web/blob/f42ebb3/lib/utils/fs.ts#L58">lib/utils/fs.ts:58</a></li>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/43ca53a/lib/utils/fs.ts#L58">lib/utils/fs.ts:58</a></li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -3149,7 +3179,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sondr3/web/blob/f42ebb3/lib/utils/fs.ts#L200">lib/utils/fs.ts:200</a></li>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/43ca53a/lib/utils/fs.ts#L200">lib/utils/fs.ts:200</a></li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -3192,7 +3222,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sondr3/web/blob/f42ebb3/lib/utils/fs.ts#L215">lib/utils/fs.ts:215</a></li>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/43ca53a/lib/utils/fs.ts#L215">lib/utils/fs.ts:215</a></li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -3232,7 +3262,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sondr3/web/blob/f42ebb3/lib/utils/utils.ts#L10">lib/utils/utils.ts:10</a></li>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/43ca53a/lib/utils/utils.ts#L10">lib/utils/utils.ts:10</a></li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -3265,7 +3295,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sondr3/web/blob/f42ebb3/lib/utils/utils.ts#L34">lib/utils/utils.ts:34</a></li>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/43ca53a/lib/utils/utils.ts#L34">lib/utils/utils.ts:34</a></li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -3300,7 +3330,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sondr3/web/blob/f42ebb3/lib/utils/fs.ts#L27">lib/utils/fs.ts:27</a></li>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/43ca53a/lib/utils/fs.ts#L27">lib/utils/fs.ts:27</a></li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -3350,7 +3380,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sondr3/web/blob/f42ebb3/lib/utils/fs.ts#L151">lib/utils/fs.ts:151</a></li>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/43ca53a/lib/utils/fs.ts#L151">lib/utils/fs.ts:151</a></li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
