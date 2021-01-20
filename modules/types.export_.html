@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>tests | web</title>
+	<title>export&#x3D; | web</title>
 	<meta name="description" content="Documentation for web">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style type="text/css">/*! normalize.css v1.1.3 | MIT License | git.io/normalize */
@@ -2676,14 +2676,11 @@ img {
 </header>
 <nav class="tsd-navigation secondary">
 	<ul>
-		<li class=" tsd-kind-variable tsd-parent-kind-module">
-			<a href="tests.html#testconfig" class="tsd-kind-icon">test<wbr>Config</a>
+		<li class=" tsd-kind-function tsd-parent-kind-namespace">
+			<a href="types.export_.html#finished" class="tsd-kind-icon">finished</a>
 		</li>
-		<li class=" tsd-kind-function tsd-parent-kind-module">
-			<a href="tests.html#testsite" class="tsd-kind-icon">Test<wbr>Site</a>
-		</li>
-		<li class=" tsd-kind-function tsd-parent-kind-module">
-			<a href="tests.html#createtestdirectory" class="tsd-kind-icon">create<wbr>Test<wbr>Directory</a>
+		<li class=" tsd-kind-function tsd-parent-kind-namespace">
+			<a href="types.export_.html#pipeline" class="tsd-kind-icon">pipeline</a>
 		</li>
 	</ul>
 </nav>
@@ -2694,110 +2691,174 @@ img {
 			<section class="tsd-panel tsd-index-panel">
 				<div class="tsd-index-content">
 					<section class="tsd-index-section ">
-						<h3>Variables</h3>
-						<ul class="tsd-index-list">
-							<li class="tsd-kind-variable tsd-parent-kind-module"><a href="tests.html#testconfig" class="tsd-kind-icon">test<wbr>Config</a></li>
-						</ul>
-					</section>
-					<section class="tsd-index-section ">
 						<h3>Functions</h3>
 						<ul class="tsd-index-list">
-							<li class="tsd-kind-function tsd-parent-kind-module"><a href="tests.html#testsite" class="tsd-kind-icon">Test<wbr>Site</a></li>
-							<li class="tsd-kind-function tsd-parent-kind-module"><a href="tests.html#createtestdirectory" class="tsd-kind-icon">create<wbr>Test<wbr>Directory</a></li>
+							<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="types.export_.html#finished" class="tsd-kind-icon">finished</a></li>
+							<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="types.export_.html#pipeline" class="tsd-kind-icon">pipeline</a></li>
 						</ul>
 					</section>
-				</div>
-			</section>
-		</section>
-		<section class="tsd-panel-group tsd-member-group ">
-			<h2>Variables</h2>
-			<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-module">
-				<a name="testconfig" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagConst">Const</span> test<wbr>Config</h3>
-				<div class="tsd-signature tsd-kind-icon">test<wbr>Config<span class="tsd-signature-symbol">:</span> <a href="site_config.html#config" class="tsd-signature-type" data-tsd-kind="Type alias">Config</a><span class="tsd-signature-symbol"> = ...</span></div>
-				<aside class="tsd-sources">
-					<ul>
-						<li>Defined in <a href="https://github.com/sondr3/web/blob/e0d5dd1/lib/tests/helpers.ts#L21">lib/tests/helpers.ts:21</a></li>
-					</ul>
-				</aside>
-				<div class="tsd-comment tsd-typography">
-					<div class="lead">
-						<p>A simple wrapper around the default config that sets <code>out</code> to be a
-						random temporary directory.</p>
-					</div>
 				</div>
 			</section>
 		</section>
 		<section class="tsd-panel-group tsd-member-group ">
 			<h2>Functions</h2>
-			<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
-				<a name="testsite" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagConst">Const</span> Test<wbr>Site</h3>
-				<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
-					<li class="tsd-signature tsd-kind-icon">Test<wbr>Site<span class="tsd-signature-symbol">(</span>config<span class="tsd-signature-symbol">?: </span><a href="site_config.html#config" class="tsd-signature-type" data-tsd-kind="Type alias">Config</a>, state<span class="tsd-signature-symbol">?: </span><a href="site_state.html#state" class="tsd-signature-type" data-tsd-kind="Type alias">State</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../classes/site_site.site.html" class="tsd-signature-type" data-tsd-kind="Class">Site</a></li>
+			<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-namespace">
+				<a name="finished" class="tsd-anchor"></a>
+				<h3>finished</h3>
+				<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-namespace">
+					<li class="tsd-signature tsd-kind-icon">finished<span class="tsd-signature-symbol">(</span>stream<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">NodeJS.ReadableStream</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">NodeJS.WritableStream</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">NodeJS.ReadWriteStream</span>, options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">FinishedOptions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
 				</ul>
 				<ul class="tsd-descriptions">
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sondr3/web/blob/e0d5dd1/lib/tests/helpers.ts#L33">lib/tests/helpers.ts:33</a></li>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/e0d5dd1/lib/types.d.ts#L7">lib/types.d.ts:7</a></li>
 							</ul>
 						</aside>
-						<div class="tsd-comment tsd-typography">
-							<div class="lead">
-								<p>A simple wrapper around <a href="../classes/site_site.site.html">Site</a> that overrides the default <code>out</code> to be
-								a temporary directory.</p>
-							</div>
-						</div>
 						<h4 class="tsd-parameters-title">Parameters</h4>
 						<ul class="tsd-parameters">
 							<li>
-								<h5>config: <a href="site_config.html#config" class="tsd-signature-type" data-tsd-kind="Type alias">Config</a><span class="tsd-signature-symbol"> = ...</span></h5>
-								<div class="tsd-comment tsd-typography">
-									<p>Test configuration</p>
-								</div>
+								<h5>stream: <span class="tsd-signature-type">NodeJS.ReadableStream</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">NodeJS.WritableStream</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">NodeJS.ReadWriteStream</span></h5>
 							</li>
 							<li>
-								<h5>state: <a href="site_state.html#state" class="tsd-signature-type" data-tsd-kind="Type alias">State</a><span class="tsd-signature-symbol"> = ...</span></h5>
-								<div class="tsd-comment tsd-typography">
-									<p>Test state</p>
-								</div>
+								<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <span class="tsd-signature-type">FinishedOptions</span></h5>
 							</li>
 						</ul>
-						<h4 class="tsd-returns-title">Returns <a href="../classes/site_site.site.html" class="tsd-signature-type" data-tsd-kind="Class">Site</a></h4>
-						<p>A test site configuration</p>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
 					</li>
 				</ul>
 			</section>
-			<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
-				<a name="createtestdirectory" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagConst">Const</span> create<wbr>Test<wbr>Directory</h3>
-				<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
-					<li class="tsd-signature tsd-kind-icon">create<wbr>Test<wbr>Directory<span class="tsd-signature-symbol">(</span>prefix<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+			<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-namespace">
+				<a name="pipeline" class="tsd-anchor"></a>
+				<h3>pipeline</h3>
+				<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-namespace">
+					<li class="tsd-signature tsd-kind-icon">pipeline<span class="tsd-signature-symbol">(</span>stream1<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">NodeJS.ReadableStream</span>, stream2<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">NodeJS.WritableStream</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					<li class="tsd-signature tsd-kind-icon">pipeline<span class="tsd-signature-symbol">(</span>stream1<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">NodeJS.ReadableStream</span>, stream2<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">NodeJS.ReadWriteStream</span>, stream3<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">NodeJS.WritableStream</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					<li class="tsd-signature tsd-kind-icon">pipeline<span class="tsd-signature-symbol">(</span>stream1<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">NodeJS.ReadableStream</span>, stream2<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">NodeJS.ReadWriteStream</span>, stream3<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">NodeJS.ReadWriteStream</span>, stream4<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">NodeJS.WritableStream</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					<li class="tsd-signature tsd-kind-icon">pipeline<span class="tsd-signature-symbol">(</span>stream1<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">NodeJS.ReadableStream</span>, stream2<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">NodeJS.ReadWriteStream</span>, stream3<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">NodeJS.ReadWriteStream</span>, stream4<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">NodeJS.ReadWriteStream</span>, stream5<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">NodeJS.WritableStream</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					<li class="tsd-signature tsd-kind-icon">pipeline<span class="tsd-signature-symbol">(</span>streams<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">NodeJS.ReadableStream</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">NodeJS.WritableStream</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">NodeJS.ReadWriteStream</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					<li class="tsd-signature tsd-kind-icon">pipeline<span class="tsd-signature-symbol">(</span>stream1<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">NodeJS.ReadableStream</span>, stream2<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">NodeJS.ReadWriteStream</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">NodeJS.WritableStream</span>, <span class="tsd-signature-symbol">...</span>streams<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">NodeJS.ReadWriteStream</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">NodeJS.WritableStream</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
 				</ul>
 				<ul class="tsd-descriptions">
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sondr3/web/blob/e0d5dd1/lib/tests/helpers.ts#L13">lib/tests/helpers.ts:13</a></li>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/e0d5dd1/lib/types.d.ts#L12">lib/types.d.ts:12</a></li>
 							</ul>
 						</aside>
-						<div class="tsd-comment tsd-typography">
-							<div class="lead">
-								<p>Create a temporary folder in your OS&#39; temporary folder.</p>
-							</div>
-						</div>
 						<h4 class="tsd-parameters-title">Parameters</h4>
 						<ul class="tsd-parameters">
 							<li>
-								<h5>prefix: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = &quot;test&quot;</span></h5>
-								<div class="tsd-comment tsd-typography">
-									<p>Prefix of folder</p>
-								</div>
+								<h5>stream1: <span class="tsd-signature-type">NodeJS.ReadableStream</span></h5>
+							</li>
+							<li>
+								<h5>stream2: <span class="tsd-signature-type">NodeJS.WritableStream</span></h5>
 							</li>
 						</ul>
-						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
-						<p>Directory path</p>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+					</li>
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/e0d5dd1/lib/types.d.ts#L13">lib/types.d.ts:13</a></li>
+							</ul>
+						</aside>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>stream1: <span class="tsd-signature-type">NodeJS.ReadableStream</span></h5>
+							</li>
+							<li>
+								<h5>stream2: <span class="tsd-signature-type">NodeJS.ReadWriteStream</span></h5>
+							</li>
+							<li>
+								<h5>stream3: <span class="tsd-signature-type">NodeJS.WritableStream</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+					</li>
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/e0d5dd1/lib/types.d.ts#L18">lib/types.d.ts:18</a></li>
+							</ul>
+						</aside>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>stream1: <span class="tsd-signature-type">NodeJS.ReadableStream</span></h5>
+							</li>
+							<li>
+								<h5>stream2: <span class="tsd-signature-type">NodeJS.ReadWriteStream</span></h5>
+							</li>
+							<li>
+								<h5>stream3: <span class="tsd-signature-type">NodeJS.ReadWriteStream</span></h5>
+							</li>
+							<li>
+								<h5>stream4: <span class="tsd-signature-type">NodeJS.WritableStream</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+					</li>
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/e0d5dd1/lib/types.d.ts#L24">lib/types.d.ts:24</a></li>
+							</ul>
+						</aside>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>stream1: <span class="tsd-signature-type">NodeJS.ReadableStream</span></h5>
+							</li>
+							<li>
+								<h5>stream2: <span class="tsd-signature-type">NodeJS.ReadWriteStream</span></h5>
+							</li>
+							<li>
+								<h5>stream3: <span class="tsd-signature-type">NodeJS.ReadWriteStream</span></h5>
+							</li>
+							<li>
+								<h5>stream4: <span class="tsd-signature-type">NodeJS.ReadWriteStream</span></h5>
+							</li>
+							<li>
+								<h5>stream5: <span class="tsd-signature-type">NodeJS.WritableStream</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+					</li>
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/e0d5dd1/lib/types.d.ts#L31">lib/types.d.ts:31</a></li>
+							</ul>
+						</aside>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>streams: <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">NodeJS.ReadableStream</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">NodeJS.WritableStream</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">NodeJS.ReadWriteStream</span><span class="tsd-signature-symbol">&gt;</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+					</li>
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sondr3/web/blob/e0d5dd1/lib/types.d.ts#L34">lib/types.d.ts:34</a></li>
+							</ul>
+						</aside>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>stream1: <span class="tsd-signature-type">NodeJS.ReadableStream</span></h5>
+							</li>
+							<li>
+								<h5>stream2: <span class="tsd-signature-type">NodeJS.ReadWriteStream</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">NodeJS.WritableStream</span></h5>
+							</li>
+							<li>
+								<h5><span class="tsd-flag ts-flagRest">Rest</span> <span class="tsd-signature-symbol">...</span>streams: <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">NodeJS.ReadWriteStream</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">NodeJS.WritableStream</span><span class="tsd-signature-symbol">&gt;</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
 					</li>
 				</ul>
 			</section>
